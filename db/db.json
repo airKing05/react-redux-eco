@@ -1,0 +1,41 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "I phone 13",
+            "color": "blue",
+            "price": 100000,
+            "category": "mobile",
+            "brand": "apple",
+            "photo": "https://bit.ly/3Ikr083"
+        },
+        {
+            "id": 2,
+            "name": "samsung note 10",
+            "color": "black",
+            "price": 70000,
+            "category": "mobile",
+            "brand": "samsung",
+            "photo": "https://bit.ly/3NLI2wX"
+        },
+        {
+            "id": 3,
+            "name": "macBook Air M1 ",
+            "color": "silver",
+            "price": 92000,
+            "category": "laptop",
+            "brand": "apple",
+            "photo": "https://bit.ly/3NLIcEz"
+        },
+        {
+            "id": 4,
+            "name": "T-shirt ",
+            "color": "black",
+            "price": 499,
+            "category": "cloth",
+            "brand": "zara",
+            "photo": "https://bit.ly/3bXG9Al"
+        }
+
+    ]
+}
