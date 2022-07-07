@@ -36,6 +36,26 @@ body{
   background-color: rgb(29, 27, 27);
   height: 100px;
 }
+.logo{
+  margin: 25px 25px;
+  float: left;
+  font-size: 25px;
+  color: rgb(237, 4, 4);
+}
+
+.search-input-box{
+  display: flex;
+  float: left;
+  margin: 25px;
+}
+.search-input-box input{
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
 .cart-div{
   margin: 20px;
   float: right;
@@ -79,7 +99,48 @@ body{
   margin-bottom: 5px;
 }
 /* product home css */
-@keyframes App-logo-spin {
+/* cart page css */
+.cart-container{
+  margin: 25px;
+}
+.cart-container span{
+  float: left;
+}
+.cart-container h3{
+  text-transform: capitalize;
+}
+
+.cart-container-details{
+  display: flex;
+  margin: 25px;
+}
+.cart-container-details table{
+  flex: 60%;
+  border-collapse: collapse;
+  
+}
+
+.cart-container-details table th, td{
+  border: 1px solid #8f9396;
+  padding: 15px;
+}
+
+.cart-container-details .price-details{
+  flex: 30%;
+  margin: 0px 25px;
+}
+.price-details .adjust-price{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #8f9396;
+  padding-top: 20px;
+}
+.price-details .adjust-price span{
+  font-size: 24px; 
+}
+/* cart page css */
+
+@keyframes App-logo-spi0px 25pxn {
   from {
     transform: rotate(0deg);
   }

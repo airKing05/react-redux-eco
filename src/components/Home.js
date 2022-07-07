@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { addToCart, emptyCart, removeToCart } from '../redux/actions/action';
 import { useDispatch, useSelector } from 'react-redux';
-import { productData } from '../redux/actions/productAction';
+import { productList } from '../redux/actions/productAction';
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
 
     // api data on onload
     useEffect(()=>{
-      dispatch(productData())
+      dispatch(productList())
     }, [])
   return (
     <div>
@@ -34,7 +34,7 @@ export default function Home() {
       { 
         result && result.map((item)=>
           <div className='product-item' key={item.id}>
-            <img src={item.photo} atl="item-photo"/>
+            <img src={item.photo} alt="item"/>
             <div>Name: {item.name}</div>
             <div>Brand: {item.brand}</div>
             <div>Color: {item.color}</div>

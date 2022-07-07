@@ -35,6 +35,42 @@
             "category": "cloth",
             "brand": "zara",
             "photo": "https://bit.ly/3bXG9Al"
+        },
+        {
+            "id": 5,
+            "name": "Symbol Men's  Jeans ",
+            "color": "Medium Blue5",
+            "price": 1679.00,
+            "category": "cloth",
+            "brand": "Lavish",
+            "photo": "https://bit.ly/3IjyhoR"
+        },
+        {
+            "id": 6,
+            "name": "Redmi Note 11",
+            "color": "Mirage Blue",
+            "price": 19999.00,
+            "category": "mobile",
+            "brand": "Xiaomi",
+            "photo": "https://bit.ly/3RhWHmI"
+        },
+        {
+            "id": 7,
+            "name": "HP Pavilion x360",
+            "color": "Natural Silver",
+            "price": 49490.00,
+            "category": "laptop",
+            "brand": "hp",
+            "photo": "https://bit.ly/3akBnfB"
+        },
+        {
+            "id": 8,
+            "name": "Sony PlayStation 5",
+            "color": "off white",
+            "price": 60488.00,
+            "category": "console",
+            "brand": "sony",
+            "photo": "https://bit.ly/3OQjkNj"
         }
 
     ]
