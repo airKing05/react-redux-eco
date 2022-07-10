@@ -31,10 +31,15 @@ body{
 .App-link {
   color: #61dafb;
 }
+
+
+/* apni css */
 /* header css */
 .header{
   background-color: rgb(29, 27, 27);
   height: 100px;
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 .logo{
   margin: 25px 25px;
@@ -75,6 +80,7 @@ body{
   right: 22px;
   color: #fff;
 }
+
 /* header css */
 
 /* product home css */
@@ -99,6 +105,8 @@ body{
   margin-bottom: 5px;
 }
 /* product home css */
+
+
 /* cart page css */
 .cart-container{
   margin: 25px;
@@ -125,6 +133,11 @@ body{
   padding: 15px;
 }
 
+.cart-container-details .cart-img {
+  width: 100px;
+  height: auto;
+}
+
 .cart-container-details .price-details{
   flex: 30%;
   margin: 0px 25px;
@@ -136,7 +149,7 @@ body{
   padding-top: 20px;
 }
 .price-details .adjust-price span{
-  font-size: 24px; 
+  font-size: 20px; 
 }
 /* cart page css */
 
