@@ -4,6 +4,7 @@ body{
 }
 .App {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .App-logo {
@@ -103,6 +104,14 @@ body{
   font-size: 18px;
   color: #57595b;
   margin-bottom: 5px;
+}
+.btn{
+  font-size: 15px;
+  border: 1px solid gray;
+  margin: 5px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(237, 4, 4);
 }
 /* product home css */
 
