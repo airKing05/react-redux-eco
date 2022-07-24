@@ -44,7 +44,7 @@ Start Json server
 ```bash
   $ json-server --watch db.json --port 3001
 ```
-**Login API**
+**Product API**
 ```http
   GET /products
 ```
