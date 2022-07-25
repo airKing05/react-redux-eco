@@ -77,7 +77,7 @@ Product api data look like
 
 ## Tech Stack
 
-**Client:** React, Redux, Saga
+**Client:** React, Redux, Saga, CSS
 
 **Server:** for the Database db.json file is created in using the JSON server.
 
